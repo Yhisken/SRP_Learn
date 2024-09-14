@@ -1,5 +1,5 @@
 # SRP_Learn
-This is my repository for learning Unity programmable rendering pipeline. I have made it public, hoping to help others while learning on my own.
+This is my repository for learning **Unity** **S**criptable **R**endering **P**ipeline. I have made it public, hoping to help others while learning on my own.
 
 # Reference
 
