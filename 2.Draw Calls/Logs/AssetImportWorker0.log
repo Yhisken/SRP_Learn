@@ -1,0 +1,2798 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 32492 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\Unity\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/UnityHub/Project/CustomRP
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56694
+Successfully changed project path to: D:/UnityHub/Project/CustomRP
+D:/UnityHub/Project/CustomRP
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [60100] Host "[IP] 10.225.0.67 [Port] 0 [Flags] 2 [Guid] 46464778 [EditorId] 46464778 [Version] 1048832 [Id] WindowsEditor(7,Yhisken) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [60100] Host "[IP] 10.225.0.67 [Port] 0 [Flags] 2 [Guid] 46464778 [EditorId] 46464778 [Version] 1048832 [Id] WindowsEditor(7,Yhisken) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 3.86 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path D:/UnityHub/Unity/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityHub/Project/CustomRP/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/UnityHub/Unity/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/Unity/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/Unity/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56832
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/Unity/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002410 seconds.
+- Loaded All Assemblies, in  0.217 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.197 seconds
+Domain Reload Profiling: 414ms
+	BeginReloadAssembly (62ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (90ms)
+		LoadAssemblies (61ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (197ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.430 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.329 seconds
+Domain Reload Profiling: 759ms
+	BeginReloadAssembly (87ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (183ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (164ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (329ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (222ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (40ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (341.2 KB). Loaded Objects now: 3326.
+Memory consumption went from 113.8 MB to 113.5 MB.
+Total: 2.169500 ms (FindLiveObjects: 0.148000 ms CreateObjectMapping: 0.060100 ms MarkObjects: 1.851400 ms  DeleteObjects: 0.109500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 353018.426337 seconds.
+  path: Assets/Shaders/UnlitShader.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitShader.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '886e348821aaef63f209dccbfd6fed99') in 0.002571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.305535 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbb7e926b537379de52fe070616dd903') in 0.000555 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 63.774137 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee42e800001ee35134569ad38198d170') in 0.000561 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.671440 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206e610b6b61e6e85c77d65feb43e343') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 29.787417 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b625117ac8d5db52c8ec867025045a7') in 0.000560 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.819536 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c262bae30c5c384a3ca5f519f5b3f7a') in 0.000749 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.251418 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b420cbbd1724bac38000fa94eed86e3') in 0.000703 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.409661 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c9f042a69ee60ad91dd403790a2418') in 0.000709 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 32.078852 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfcc625ff7412d7204fbbb18e061db3') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.084651 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38bbcf04de8d57a6bb62a74ff579e0fa') in 0.000700 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.872065 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2274f3013aec1b0610bb7fadece5ec6') in 0.000614 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.835143 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84e6e0a9084d6511cfa4521d301935db') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 40.234456 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3115df754d6923cf63c8db91449f7c6') in 0.000693 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 19.438557 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50110617b630f825f8d259055ad0557') in 0.000731 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.968419 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008205 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:19.9759205Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:19.9759205Z'
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.024819 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001063 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.041879 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000704 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007991 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000756 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008382 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001295 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007114 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000815 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005672 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000748 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006000 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000672 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006183 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000926 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005325 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000716 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006972 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000702 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006133 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000770 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006779 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000806 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007019 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000733 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007401 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000715 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.011144 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000730 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005578 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000715 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006547 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000767 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005012 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000700 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005695 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000735 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005796 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000699 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005592 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005636 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000688 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005095 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000705 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005061 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000779 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006217 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000713 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006413 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000700 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005531 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000718 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005336 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007311 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000737 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005417 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000837 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006175 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000735 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006336 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000680 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004841 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000659 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003740 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000647 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005037 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000678 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004683 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000625 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.003643 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000641 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005433 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.001350 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004789 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000690 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004633 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000670 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005334 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000668 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.004239 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000816 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005618 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000737 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006491 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000670 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006427 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000694 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006388 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000662 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005827 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000800 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006807 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000697 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.005638 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000688 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006694 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000708 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007194 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000710 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008270 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000703 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006636 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000931 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007614 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000635 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006835 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000895 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008305 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000637 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000475 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009027 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000673 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007687 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000698 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009060 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000654 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008792 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000675 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007072 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000617 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.006536 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000831 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.009430 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000771 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007123 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000715 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.007698 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000669 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008209 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000701 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+  ERROR: Build asset version error: assets/shaders/unlitpass.hlsl in SourceAssetDB has modification time of '2024-09-14T03:38:19.3638685Z' while content on disk has modification time of '2024-09-14T03:38:20.0100046Z'
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.088373 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c869be0ee217dfa8ef8c523fb83d07e') in 0.000685 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.785200 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849480a390d1fe981baf36c78a4bcdb7') in 0.000632 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.579992 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcde7139020612333baa3fe0e1aecd5e') in 0.000676 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 11.045652 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0293fa4eb7d10a2753eda140f585cc85') in 0.000759 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 15.073595 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47defe05087dc88dca4d212260b5f652') in 0.000736 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.906173 seconds.
+  path: Assets/CustomRP/ShaderLibrary
+  artifactKey: Guid(1da6bc55fed9448449ea9b5f7c68284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary using Guid(1da6bc55fed9448449ea9b5f7c68284e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae98201a5b20df69e5c4f574966dce6') in 0.000704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.698850 seconds.
+  path: Assets/CustomRP/ShaderLibrary/UnityInput.hlsl
+  artifactKey: Guid(473cb8e054782a245b4c92b18d5b6fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary/UnityInput.hlsl using Guid(473cb8e054782a245b4c92b18d5b6fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b763567d78a5685575eca5e7b905eeb4') in 0.000768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 22.740492 seconds.
+  path: Assets/CustomRP/ShaderLibrary/UnityInput.hlsl
+  artifactKey: Guid(473cb8e054782a245b4c92b18d5b6fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary/UnityInput.hlsl using Guid(473cb8e054782a245b4c92b18d5b6fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c6d9db617322def4d2c218be570464d') in 0.000706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 72.402763 seconds.
+  path: Assets/CustomRP/ShaderLibrary/Common.hlsl
+  artifactKey: Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary/Common.hlsl using Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b77767a6fc2b4c3608ece34690a290') in 0.001028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.379960 seconds.
+  path: Assets/CustomRP/ShaderLibrary/Common.hlsl
+  artifactKey: Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary/Common.hlsl using Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbf64632fea14f97048e9357b007df1') in 0.000716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 220.831427 seconds.
+  path: Assets/CustomRP/ShaderLibrary/Common.hlsl
+  artifactKey: Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary/Common.hlsl using Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55477199bc7ed25d05d27fc46a1bceec') in 0.000981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 253.183231 seconds.
+  path: Assets/CustomRP/ShaderLibrary/Common.hlsl
+  artifactKey: Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/ShaderLibrary/Common.hlsl using Guid(6c4527e00f153614e827441359bbe434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621adb2bfc45e61b1f06ace25e404586') in 0.000931 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.048369 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9995d20d83e50f640923381fe484b907') in 0.000684 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.297755 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70724bc02ced432e119d8f5e6c0e5f9') in 0.000865 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.695341 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '645cc5b056946131094b96ce8b2cdd70') in 0.000516 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.905172 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce53c02c43e6dc6c98155a8de1638528') in 0.000489 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.918169 seconds.
+  path: Assets/Shaders/UnlitPass.hlsl
+  artifactKey: Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/UnlitPass.hlsl using Guid(5650399be4e69d64185e625c19e1ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d7f3d226fa5387a2fb62cd8f58a506') in 0.000842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.869867 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecc7bf4cf7ed2bb82369d381c7e2215c') in 0.000505 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 448.300705 seconds.
+  path: Packages/com.unity.render-pipelines.core/ShaderLibrary/SpaceTransforms.hlsl
+  artifactKey: Guid(07d22e3065efb5a489e5e2644df19bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.render-pipelines.core/ShaderLibrary/SpaceTransforms.hlsl using Guid(07d22e3065efb5a489e5e2644df19bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e38cef3f8b5f11a9dd51b36e23bd53') in 0.000909 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.548 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (274ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (215ms)
+			TypeCache.Refresh (209ms)
+				TypeCache.ScanAssembly (193ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (549ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (236ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (127ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2836 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3330.
+Memory consumption went from 110.7 MB to 110.4 MB.
+Total: 2.650400 ms (FindLiveObjects: 0.188800 ms CreateObjectMapping: 0.122500 ms MarkObjects: 2.223600 ms  DeleteObjects: 0.115000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.392 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (139ms)
+				TypeCache.ScanAssembly (134ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (441ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.3 KB). Loaded Objects now: 3333.
+Memory consumption went from 111.0 MB to 110.7 MB.
+Total: 2.575800 ms (FindLiveObjects: 0.148700 ms CreateObjectMapping: 0.061300 ms MarkObjects: 2.299200 ms  DeleteObjects: 0.065600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3704.103404 seconds.
+  path: Assets/CustomRP/Example
+  artifactKey: Guid(d53b2529b3529a546a46f1f6ea1f4eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example using Guid(d53b2529b3529a546a46f1f6ea1f4eee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f0a4d1e0d0be2fcba478e22ccdcba2') in 0.004880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.916091 seconds.
+  path: Assets/CustomRP/Example/PerObjectMaterialProperties.cs
+  artifactKey: Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/PerObjectMaterialProperties.cs using Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3789de5a5258d2445a1c31815f6c00') in 0.000386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.408 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.441 seconds
+Domain Reload Profiling: 850ms
+	BeginReloadAssembly (102ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (148ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (209ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (113ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3337.
+Memory consumption went from 110.8 MB to 110.4 MB.
+Total: 2.653800 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.140800 ms MarkObjects: 2.235500 ms  DeleteObjects: 0.072100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.404001 seconds.
+  path: Assets/CustomRP/Example/PerObjectMaterialProperties.cs
+  artifactKey: Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/PerObjectMaterialProperties.cs using Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5432d175a154aa600bd409b53f0d0bc3') in 0.001680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.837614 seconds.
+  path: Assets/CustomRP/Example/PerObjectMaterialProperties.cs
+  artifactKey: Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/PerObjectMaterialProperties.cs using Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2559b4c1de7bbcea41161b5dc54385c5') in 0.000365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.403 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.493 seconds
+Domain Reload Profiling: 896ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (256ms)
+		LoadAssemblies (150ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (42ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2837 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3340.
+Memory consumption went from 110.8 MB to 110.4 MB.
+Total: 2.357000 ms (FindLiveObjects: 0.196700 ms CreateObjectMapping: 0.129900 ms MarkObjects: 1.956700 ms  DeleteObjects: 0.072700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.389 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.490 seconds
+Domain Reload Profiling: 879ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (490ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3343.
+Memory consumption went from 111.0 MB to 110.7 MB.
+Total: 2.689300 ms (FindLiveObjects: 0.196300 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.308500 ms  DeleteObjects: 0.080200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.384 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.449 seconds
+Domain Reload Profiling: 833ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (151ms)
+			TypeCache.Refresh (147ms)
+				TypeCache.ScanAssembly (142ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (211ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (119ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3346.
+Memory consumption went from 111.0 MB to 110.7 MB.
+Total: 2.024000 ms (FindLiveObjects: 0.150900 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.743900 ms  DeleteObjects: 0.061900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.818 seconds
+Refreshing native plugins compatible for Editor in 1.34 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.423 seconds
+Domain Reload Profiling: 1242ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (672ms)
+		LoadAssemblies (565ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (139ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (424ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (208ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (32ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3349.
+Memory consumption went from 111.0 MB to 110.7 MB.
+Total: 2.745400 ms (FindLiveObjects: 0.207600 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.299100 ms  DeleteObjects: 0.093200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.474 seconds
+Domain Reload Profiling: 885ms
+	BeginReloadAssembly (106ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (258ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (152ms)
+				TypeCache.ScanAssembly (147ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (475ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3352.
+Memory consumption went from 111.0 MB to 110.7 MB.
+Total: 3.030200 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.133800 ms MarkObjects: 2.565700 ms  DeleteObjects: 0.097500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1579.580012 seconds.
+  path: Assets/CustomRP/Scripts.cs
+  artifactKey: Guid(13e9fa4f4ab3642499636c92ad34d763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Scripts.cs using Guid(13e9fa4f4ab3642499636c92ad34d763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a675ab349934ed652e9c2147ea1ad50') in 0.005519 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.415 seconds
+Refreshing native plugins compatible for Editor in 1.11 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (103ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (262ms)
+		LoadAssemblies (154ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (462ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (198ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.08 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3356.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 2.220800 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.923600 ms  DeleteObjects: 0.068600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.385 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 832ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (141ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (448ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (200ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (313.8 KB). Loaded Objects now: 3358.
+Memory consumption went from 111.0 MB to 110.7 MB.
+Total: 2.229100 ms (FindLiveObjects: 0.173700 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.902200 ms  DeleteObjects: 0.079900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16.460257 seconds.
+  path: Assets/CustomRP/Example/PerObjectMaterialProperties.cs
+  artifactKey: Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/PerObjectMaterialProperties.cs using Guid(bcb290f3532bb324cb3902bacedad381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a473517a1bdf30376cd400f4249bfcc5') in 0.002229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.352176 seconds.
+  path: Assets/CustomRP/Example/MeshBall.cs
+  artifactKey: Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/MeshBall.cs using Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b5ae321bff2d008a57b144bbd0fa26') in 0.000393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.413 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 861ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (138ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (167ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (448ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (204ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3362.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 3.024200 ms (FindLiveObjects: 0.220100 ms CreateObjectMapping: 0.133000 ms MarkObjects: 2.566800 ms  DeleteObjects: 0.103100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3.904620 seconds.
+  path: Assets/CustomRP/Example/MeshBall.cs
+  artifactKey: Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/MeshBall.cs using Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e4f489e17037d1125a93695a233e0f') in 0.001882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.528130 seconds.
+  path: Assets/CustomRP/Example/MeshBall.cs
+  artifactKey: Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/MeshBall.cs using Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c2efcaaa299a4478503754cd5314473') in 0.000399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.385 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.477 seconds
+Domain Reload Profiling: 862ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (245ms)
+		LoadAssemblies (142ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (143ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (477ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (105ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.3 KB). Loaded Objects now: 3365.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 2.343800 ms (FindLiveObjects: 0.160200 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.036300 ms  DeleteObjects: 0.075500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.302957 seconds.
+  path: Assets/CustomRP/Example/MeshBall.cs
+  artifactKey: Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/MeshBall.cs using Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '010a321171c1304bdf880338f4370134') in 0.001789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.453 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.482 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (23ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (174ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (482ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (192ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3368.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 2.637800 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.105900 ms MarkObjects: 2.249000 ms  DeleteObjects: 0.085300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.827160 seconds.
+  path: Assets/CustomRP/Example/MeshBall.cs
+  artifactKey: Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/MeshBall.cs using Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435b8dac5d37fabb4ea1c3f0739ff899') in 0.002186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.402 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 872ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (145ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (158ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (2ms)
+	FinalizeReload (470ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (114ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.3 KB). Loaded Objects now: 3371.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 2.748000 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.124500 ms MarkObjects: 2.333900 ms  DeleteObjects: 0.094700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7.652294 seconds.
+  path: Assets/CustomRP/Example/MeshBall.cs
+  artifactKey: Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CustomRP/Example/MeshBall.cs using Guid(fc01eea200c5e274aa4e209111b89950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ac2d67b7cd67228af116e65729b217') in 0.001816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.384 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.450 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (132ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (450ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (212ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3374.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 2.201400 ms (FindLiveObjects: 0.171500 ms CreateObjectMapping: 0.069500 ms MarkObjects: 1.887500 ms  DeleteObjects: 0.072100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.384 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 836ms
+	BeginReloadAssembly (95ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (145ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (453ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (227ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (36ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3377.
+Memory consumption went from 111.1 MB to 110.7 MB.
+Total: 2.542300 ms (FindLiveObjects: 0.166100 ms CreateObjectMapping: 0.068400 ms MarkObjects: 2.231600 ms  DeleteObjects: 0.075600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.443 seconds
+Domain Reload Profiling: 823ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (243ms)
+		LoadAssemblies (141ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (148ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (35ms)
+			ProcessInitializeOnLoadAttributes (112ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3380.
+Memory consumption went from 111.1 MB to 110.8 MB.
+Total: 2.363400 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.072500 ms MarkObjects: 2.036000 ms  DeleteObjects: 0.085900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.399 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.459 seconds
+Domain Reload Profiling: 859ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (460ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (220ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (37ms)
+			ProcessInitializeOnLoadAttributes (115ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3383.
+Memory consumption went from 111.1 MB to 110.8 MB.
+Total: 2.099300 ms (FindLiveObjects: 0.161200 ms CreateObjectMapping: 0.073100 ms MarkObjects: 1.794900 ms  DeleteObjects: 0.069100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.395 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.422 seconds
+Domain Reload Profiling: 816ms
+	BeginReloadAssembly (93ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (257ms)
+		LoadAssemblies (134ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (422ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (197ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (104ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3386.
+Memory consumption went from 111.1 MB to 110.8 MB.
+Total: 2.864500 ms (FindLiveObjects: 0.190500 ms CreateObjectMapping: 0.203100 ms MarkObjects: 2.399800 ms  DeleteObjects: 0.070000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.425 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.513 seconds
+Domain Reload Profiling: 939ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (159ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (165ms)
+			TypeCache.Refresh (160ms)
+				TypeCache.ScanAssembly (154ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (513ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (38ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3389.
+Memory consumption went from 111.1 MB to 110.8 MB.
+Total: 2.981700 ms (FindLiveObjects: 0.225100 ms CreateObjectMapping: 0.136100 ms MarkObjects: 2.518200 ms  DeleteObjects: 0.100800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.385 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.461 seconds
+Domain Reload Profiling: 846ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (16ms)
+	LoadAllAssembliesAndSetupDomain (249ms)
+		LoadAssemblies (136ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (155ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (461ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (228ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2839 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3392.
+Memory consumption went from 111.1 MB to 110.8 MB.
+Total: 2.109900 ms (FindLiveObjects: 0.163200 ms CreateObjectMapping: 0.070900 ms MarkObjects: 1.775300 ms  DeleteObjects: 0.099800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 788.360005 seconds.
+  path: Assets/CustomRP/Runtime/CustomRenderPipeline.cs
+  artifactKey: Guid(f974e4b6885e7fb448c44b9e80b499b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CustomRP/Runtime/CustomRenderPipeline.cs using Guid(f974e4b6885e7fb448c44b9e80b499b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '44a7adda5162cc1b974de787a30d00f9') in 0.089757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1.767034 seconds.
+  path: Assets/CustomRP/Runtime/CameraRenderer.cs
+  artifactKey: Guid(7efd15d5bf0dcdc41bd735e5b16e16c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CustomRP/Runtime/CameraRenderer.cs using Guid(7efd15d5bf0dcdc41bd735e5b16e16c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '935276d91e0882362f0d6320102fdeec') in 0.005281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.496530 seconds.
+  path: Assets/Textures/sphere-alpha-map.png
+  artifactKey: Guid(0ae8f7b81e2b74f43a33b68bf1433a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/sphere-alpha-map.png using Guid(0ae8f7b81e2b74f43a33b68bf1433a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a701af49a94d6851305f5996d8f99666') in 0.034385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.432601 seconds.
+  path: Assets/Materials/Blue.mat
+  artifactKey: Guid(6f1abfbb14ddd7c42bf938d8d8727f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Blue.mat using Guid(6f1abfbb14ddd7c42bf938d8d8727f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f401044bb70f3780f866cd6c4faa5fed') in 0.020711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/Yellow.mat
+  artifactKey: Guid(6c69c09f1ae524347beaa03bc3d8ad97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Yellow.mat using Guid(6c69c09f1ae524347beaa03bc3d8ad97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d9b1df218fe193d490a15482767f5e8') in 0.004420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Materials/Green.mat
+  artifactKey: Guid(59f1c7f89002ffe458c91eef590c5acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Materials/Green.mat using Guid(59f1c7f89002ffe458c91eef590c5acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3afcf87d0617ebcf06af86a911c99f97') in 0.004353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.469569 seconds.
+  path: Assets/Textures/sphere-alpha-map (1).png
+  artifactKey: Guid(3cde3a88892781c4bbf0def432642139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Textures/sphere-alpha-map (1).png using Guid(3cde3a88892781c4bbf0def432642139) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6d6f80e241aa92c1551d69086b65554') in 0.060434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.589446 seconds.
+  path: Assets/CustomRP/ShaderLibrary
+  artifactKey: Guid(1da6bc55fed9448449ea9b5f7c68284e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CustomRP/ShaderLibrary using Guid(1da6bc55fed9448449ea9b5f7c68284e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23ef7d890726bbfe71c7a5e291c3ab12') in 0.010131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Shaders/Unlit.shader
+  artifactKey: Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Shaders/Unlit.shader using Guid(bc096ec3ed6753d4ab5a4f7be69bc6b2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8919e2ea9409db53eb157b342be2eb6') in 0.009980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/CustomRP/ShaderLibrary/Common.hlsl
+  artifactKey: Guid(6c4527e00f153614e827441359bbe434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CustomRP/ShaderLibrary/Common.hlsl using Guid(6c4527e00f153614e827441359bbe434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9477d31d82a55986bd71eb79d963c438') in 0.003164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.459825 seconds.
+  path: Assets/CustomRP/Example/PerObjectMaterialProperties.cs
+  artifactKey: Guid(bcb290f3532bb324cb3902bacedad381) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/CustomRP/Example/PerObjectMaterialProperties.cs using Guid(bcb290f3532bb324cb3902bacedad381) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be7a9207787fe6c1a92848fc7ce928d0') in 0.007953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityHub\Project\CustomRP\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.467 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 1 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.576 seconds
+Domain Reload Profiling: 1043ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (17ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (160ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (187ms)
+				TypeCache.ScanAssembly (180ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (230ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (118ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2838 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (313.2 KB). Loaded Objects now: 3395.
+Memory consumption went from 110.8 MB to 110.5 MB.
+Total: 2.855500 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.144700 ms MarkObjects: 2.408200 ms  DeleteObjects: 0.096000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
