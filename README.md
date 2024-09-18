@@ -9,4 +9,6 @@ https://catlikecoding.com/unity/tutorials/custom-srp/
 
 1. Custom Render Pipeline 
 2. Draw Calls 
-3. ......ing
+3. Directional Lights
+4. ......
+
